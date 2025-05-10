@@ -128,7 +128,9 @@ header{
     color:rgba(0,122,185,255);
 }
 
-
+.subTopic{
+    margin-block:2rem;
+}
 
 .button-topic{
     border-radius:4px;
@@ -142,10 +144,24 @@ header{
 }
 .subTopicText{
     @media only screen and (width > 500px){
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
     margin-block-end:1rem;
     padding:0px;
 }
+}
+
+#whatWeDo{
+    border:none;
+    background-color:rgb(255, 255, 255);
+}
+
+#whatWeDoText{
+    background-color:rgb(230, 130, 31);
+    color:#e0e0e0;
+    padding-inline:1rem;
+    border-radius:5px;
+    border:3px solid rgba(0,122,185,255)
+    
 }
 
 #wetterstationen_mit_gehauese{
@@ -181,21 +197,14 @@ header{
     background-color: rgb(137, 217, 252);
 }
 .card {
-    border:orange solid 3px;
+    border:3px solid rgba(0,122,185,255);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 0px; /* 5px rounded corners */
+    border-radius: 5px; /* 5px rounded corners */
     margin-block-end:1.5rem;
   }
 
-#weatherStationCard{
-    border:solid green 5px;
-    border-radius:0px;
-}
-#windstationCard{
-    border:solid rgb(37, 37, 139) 5px;
 
-}
 
   .cardImage{
         @media only screen and (width > 500px){
