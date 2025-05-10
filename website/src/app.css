@@ -62,6 +62,21 @@ header{
 
 }
 
+.subTopic h2 
+{
+        @media only screen and (width > 500px){
+        font-size:2.5rem;
+        margin-block-end:1rem;
+}
+}
+
+.subTopic p {
+        @media only screen and (width > 500px){
+        font-size:1.5rem;
+}
+}
+
+
 .h2Topics{
     padding-block-start:1rem;
     color:rgb(43, 76, 142);
@@ -113,6 +128,8 @@ header{
     color:rgba(0,122,185,255);
 }
 
+
+
 .button-topic{
     border-radius:4px;
     background-color: #df9a72;
@@ -143,6 +160,12 @@ header{
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
     margin-block-end:1rem;
+  }
+
+  .cardImage{
+        @media only screen and (width > 500px){
+        min-height:14rem;
+}
   }
   
   /* On mouse-over, add a deeper shadow */
