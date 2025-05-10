@@ -1,7 +1,4 @@
-body {
-    text-align: center;
-    
-}
+
 
 
 
@@ -12,12 +9,10 @@ body {
 
 }
 
-.mainNavigation{
-    margin-block-start:0px;
-    padding:0px;
+.header{
     display:flex;
-    justify-content:space-between;
-
+    justify-content: space-between;
+    border:3px solid green;
 }
 
 .mainNavigation ul {
@@ -60,7 +55,7 @@ body {
 
 
 .landerPage {
-    background-image: url('../images/forest_backgroundImage.jpg');
+    background-image: url('../images/forest_bg_image.jpg');
     padding:10rem;
     background-repeat:no-repeat;
     background-position:center;
