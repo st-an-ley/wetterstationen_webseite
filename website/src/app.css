@@ -157,7 +157,7 @@ border-radius: 5px 5px 0 0;
 }
 
 footer{
-    
+    justify-content: end;
     border: solid 3px rgba(0,122,185,255);
 
 }
