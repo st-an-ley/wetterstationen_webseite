@@ -21,16 +21,13 @@ header{
     display:flex;
     gap:10px;
     list-style:none;
-    margin:0;
-    padding-block-start:1.5rem;
+
+    @media only screen and (width > 500px){
+    padding-inline-start:3px;
     padding-inline-end:1rem;
+    font-size:2rem;
+    margin-block-start:3rem;
 }
-
-
-#lmgLogo{
-    display:flex;
-    max-width:7rem;
-    max-height:7rem;
 }
 
 .mainNavigation a {
@@ -40,10 +37,21 @@ header{
     font-weight:bold;
     padding:3px;
     border-radius:1px;
+
 }
 
+#lmgLogo{
+    display:flex;
+    min-width:3rem;
+    @media only screen and (width > 500px){
+    min-width:0.5rem;
+    max-width:13rem;
+}
+}
 
-
+#lmgLogo:hover{
+    cursor:pointer;
+}
 
 .subTopic{
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -55,11 +63,15 @@ header{
 }
 
 .h2Topics{
-    @media(width < 1500px){
-        font-size:3rem;
-    }
     padding-block-start:1rem;
     color:rgb(43, 76, 142);
+    padding-block-start:1rem;
+    padding-block-end:0.7rem;
+    margin-block:0rem;
+    @media only screen and (width > 500px){
+        font-size:2rem;
+    }
+    
 }
 
 
@@ -78,32 +90,27 @@ header{
 }
 
 .landerPageHeading{
-    @media(width < 600px){
-        font-size:3rem;
-        max-width:900px;
-    }
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
     background-color: rgba(255,255,255,1);
-    color:rgba(0,122,185,255);
+    color:black;
     text-align: center;
-    border:3px solid #ffffff;
+    border:7px solid rgba(0,122,185,255);
     border-radius:5px;
+    padding-block:0.5rem;
+    @media only screen and (width > 500px){
+    font-size:2.5rem;
 }
 
-.first-site-text {
-    padding-inline:0px;
-    max-inline-size: 1000px;
-    font-size:30px;
+
 }
 
-.highlighted-1{
-    color:rgb(138, 219, 138);
+.highlightedOrange {
+    color:orange;
 }
 
-.highlighted-2 {
-    color:rgb(116, 169, 225);
+.highlightedBlue {
+    color:rgba(0,122,185,255);
 }
 
 .button-topic{
