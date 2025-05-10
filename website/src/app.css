@@ -1,4 +1,7 @@
-
+body {
+    text-align: center;
+    
+}
 
 
 
@@ -9,19 +12,25 @@
 
 }
 
-.header{
+header{
     display:flex;
     justify-content: space-between;
     border:3px solid green;
 }
 
 .mainNavigation ul {
+    border:solid red 3px;
     display:flex;
     gap:5px;
     list-style:none;
     margin:0;
     padding-block:0.2rem;
     padding-inline-end:0.1rem;
+}
+#lmgLogo{
+    border:solid blue 3px;
+    max-widht:30px;
+    max-height:30px;
 }
 
 .mainNavigation li {
@@ -138,7 +147,7 @@
 margin-block-start:1px;
 }
 /* Add rounded corners to the top left and the top right corner of the image */
-img {
+.cardImage {
 border-radius: 5px 5px 0 0;
 }
 
