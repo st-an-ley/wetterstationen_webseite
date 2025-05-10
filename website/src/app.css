@@ -34,6 +34,7 @@ header{
 }
 
 .mainNavigation a {
+    
     text-decoration: none;
     color:rgba(0,122,185,255);
     font-weight:bold;
@@ -60,6 +61,8 @@ header{
 
 
 .landerPage {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-image: url('../images/forest_bg_image.jpg');
     padding:10rem;
     background-repeat:no-repeat;
@@ -72,6 +75,7 @@ header{
 }
 
 .landerPageHeading{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
     background-color: rgba(255,255,255,1);
     color:rgba(0,122,185,255);
