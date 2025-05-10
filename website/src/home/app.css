@@ -93,7 +93,7 @@ header{
 .landerPage {
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-image: url('../images/forest_bg_image.jpg');
+    background-image: url('../../images/forest_bg_image.jpg');
     padding:10rem;
     background-repeat:no-repeat;
     background-position:center;
