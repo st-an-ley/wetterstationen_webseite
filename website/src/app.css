@@ -55,6 +55,9 @@ header{
 }
 
 .h2Topics{
+    @media(width < 600px){
+        font-size:3rem;
+    }
     padding-block-start:1rem;
     color:rgb(43, 76, 142);
 }
@@ -115,15 +118,6 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     color:black;
     
-}
-
-.whatWeDo{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
-}
-
-.currentProjects{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .two-column-text-section 
