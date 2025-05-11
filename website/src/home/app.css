@@ -17,7 +17,13 @@ header{
     justify-content: space-between;
 }
 
+.mainNavigation {
+    position:sticky;
+    top:0;
+}
+
 .mainNavigation ul {
+
     display:flex;
     gap:10px;
     list-style:none;
@@ -28,6 +34,11 @@ header{
     font-size:2rem;
     margin-block-start:3.6rem;
 }
+}
+.mainNavigation a:hover {
+    color:#ffffff;
+    transition:0.2s;
+    background-color:rgba(0,122,185,0.9);
 }
 
 .mainNavigation a {
@@ -54,7 +65,6 @@ header{
 }
 
 .subTopic{
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border: solid 3px rgba(0,122,185,255);
         border-radius:5px;
         margin-block-end:0.3rem;
@@ -93,16 +103,15 @@ header{
 .landerPage {
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-image: url('../../images/forest_bg_image.jpg');
+    background-image: url('../../images/backgroundImage.png');
     padding:10rem;
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
     color:#ffffff;
     margin-bottom:30px
-    
-    
 }
+
 
 .landerPageHeading{
 
@@ -110,15 +119,16 @@ header{
     background-color: rgba(255,255,255,1);
     color:black;
     text-align: center;
-    border:7px solid rgba(0,122,185,255);
+    border:5px solid rgba(0,122,185,255);
     border-radius:5px;
     padding-block:0.5rem;
     @media only screen and (width > 500px){
     font-size:2.5rem;
+
+}
 }
 
 
-}
 
 .highlightedOrange {
     color:orange;
@@ -152,16 +162,25 @@ header{
 
 #whatWeDo{
     border:none;
-    background-color:rgb(255, 255, 255);
 }
 
 #whatWeDoText{
-    background-color:rgb(230, 130, 31);
-    color:#e0e0e0;
+    background-color:rgb(246, 169, 54);
+    color:#ffffff;
+    font-weight:bold;
     padding-inline:1rem;
     border-radius:5px;
     border:3px solid rgba(0,122,185,255)
     
+}
+
+#lmgGebaeudeAussenansicht {
+    @media only screen and (width > 500px){
+    min-width:400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-block-end:1rem;
+    margin-inline-end:0px;
+}
 }
 
 #wetterstationen_mit_gehauese{
